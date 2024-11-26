@@ -8,6 +8,7 @@ for l in os.listdir(base_folder):
 
 app = Flask(__name__)
 
+application = app
 
 @app.route("/<int:videoID>")
 def videoID(videoID):
